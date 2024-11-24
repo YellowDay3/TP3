@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html>
+    <head> 
+        <meta charset="UTF-8">
+        <!--link rel="stylesheet" href="style.css"-->
+        <style>
+            .headering{
+                font-size: 65px;
+                font-weight: 100;
+                background-color: rgba(255, 230, 2, 0.774);
+                padding-left: 60px;
+                text-align: center;
+            }
+
+            .navigation{
+                width: 100%;
+                border: 3px solid black;
+                border-collapse: collapse;
+            }
+
+            .footion{
+                width: 100%;
+                border: 3px solid black;
+                border-collapse: collapse;
+                position: fixed;
+                bottom: 0;
+                left: 0;
+            }
+
+            .navoptions{
+                font-size: 30px;
+                padding-top: 20px;
+                padding-bottom: 20px;
+                padding-left: 60px;
+                padding-right: 60px;
+            }
+
+            .articlething{
+                width: 80%;
+                font-size: 30px;  
+            }
+
+            .logoimage{
+                display: block;
+                margin-left: auto;
+                margin-right: auto;
+                width: 35%;
+                height: 50%;
+            }
+
+            .asidebar{
+                float: right;
+                width: 20%;
+                font-size: 25px;
+            }
+
+            .iconperson{
+                float: left;
+                width: 15%;
+            }
+
+            #navoption1,
+            #navoption2,
+            #navoption3,
+            #navoption4,
+            #navoption5 {
+                display: none;
+            }
+
+            #navoption1:target,
+            #navoption2:target,
+            #navoption3:target,
+            #navoption4:target,
+            #navoption5:target {
+                display: block;
+            }
+
+            .navlink:focus,
+            .navlink:target {
+                color: #30ffc1;
+            }
+
+            body:not(:has(:target)) #navoption1 {
+                display: block;
+            }
+
+            .centeredtitle{
+                text-align: center;
+            }
+
+            .paring {
+                width: 65%;
+                height: 65%;
+                margin-left: 17%;
+                margin-top: 1%;
+            }
+        </style>
+        <title>Ma page</title>
+    </head>
+
+    <body>
+        <header class="headering">
+            Arcane
+        </header>
+        <nav>
+            <table class="navigation" border="3">
+                <tr> 
+                    <th class="navoptions"><a href="#navoption1" class="navlink">Accueil</a></th>
+                    <th class="navoptions"><a href="#navoption2" class="navlink">Saisons</a></th>
+                    <th class="navoptions"><a href="#navoption3" class="navlink">Personnages</a></th>
+                    <th class="navoptions"><a href="#navoption4" class="navlink">Bandes annonces</a></th>
+                    <th class="navoptions"><a href="#navoption5" class="navlink">Boutique</a></th>
+                </tr>
+            </table>
+        </nav>
+        <section>
+            <aside class="asidebar">
+                <h1>Nouvelles</h1>
+                <p1>The second and final season premiered on November 9, 2024 and will continue to be released through to November 23.</p1>
+                <h1>Réseaux sociaux</h1>
+                <ul>
+                    <a href="https://www.facebook.com/arcaneshow/">Facebook</a></br>
+                    <a href="https://x.com/arcaneshow">X (known formally by twitter)</a>
+                </ul>
+                <h1>Contacts</h1>
+                <li> <a href="https://x.com/riotgames">Riot Games</a></br>
+                <li><a>Fortiche</a>
+            </aside>
+            <article class="articlething">
+                <div id="navoption1">
+                    <h2></h2>
+                    <img src="https://cmsassets.rgpub.io/sanity/images/dsfx7636/news/ac9b8831448aa29116ec7082b31170d77e0f1afa-4096x1662.png?auto=format&fit=fill&q=80&h=394" class="logoimage">
+                    <section class="paring">Arcane (titled onscreen as Arcane: League of Legends) is an adult animated steampunk action-adventure television series created by Christian Linke and Alex Yee. It was produced by the French animation studio Fortiche under the supervision of Riot Games, and distributed by Netflix. Set in Riot's League of Legends universe, it primarily focuses on sisters Vi and Jinx. The series was announced at the League of Legends tenth anniversary celebration in 2019, and its first season was released between November 6 and 20, 2021.</section>
+                </div>
+                <div id="navoption2">
+                    <h2 class="centeredtitle">Saisons</h2>
+                    <h3>Saison 1 (Released in 2021)</h3>
+                    <li> <b> Act1 </b>Ep1. Welcome to the Playground
+                    <li> <b> Act1 </b>Ep2. Some Mysteries Are Better Left Unsolved
+                    <li> <b> Act1 </b>Ep3. The Base Violence Necessary for Change
+                    <li> <b> Act2 </b>Ep4. Happy Progress Day!
+                    <li> <b> Act2 </b>Ep5. Everybody Wants to Be My Enemy
+                    <li> <b> Act2 </b>Ep6. When These Walls Come Tumbling Down
+                    <li> <b> Act3 </b>Ep7. The Boy Savio
+                    <li> <b> Act3 </b>Ep8. Oil and Water
+                    <li> <b> Act3 </b>Ep9. The Monster You Created
+                    <h3>Saison 2 (Released in 2024 and continuing)</h3>
+                    <li> <b> Act1 </b>Ep1. Heavy Is the Crown
+                    <li> <b> Act1 </b>Ep2. Watch It All Burn
+                    <li> <b> Act1 </b>Ep3. Finally Got the Name Right
+                    <li> <b> Act2 </b>Ep4. Paint the Town Blue
+                    <li> <b> Act2 </b>Ep5. Blisters and Bedrock
+                    <li> <b> Act2 </b>Ep6. The Message Hidden Within the Pattern
+                    <li> <b> Act3 </b>Ep7. ??? (<i>To be release</i>)
+                    <li> <b> Act3 </b>Ep8. ??? (<i>To be release</i>)
+                    <li> <b> Act3 </b>Ep9. ??? (<i>To be release</i>)
+                </div>
+                <div id="navoption3">
+                    <h2 class="centeredtitle">Personnages</h2>
+                    <img src="assets/images/jinx.png" class="iconperson">
+      
+                    <h3><center>Jinx</h3>
+                    <p>Jinx, formerly known as Powder, is a central character in Arcane, a series inspired by League of Legends. She begins as a mischievous, kind-hearted young girl living in Zaun, under the care of her adoptive sister, Vi. Following a tragic accident where her actions inadvertently lead to the deaths of her friends and adoptive father, Vander, Powder is abandoned by Vi during a moment of emotional turmoil.
+                        This trauma sets Powder on a dark path, and under the influence of the manipulative crime lord Silco, she transforms into Jinx, a volatile and unpredictable individual with a penchant for chaos and destruction. Her character is marked by deep emotional scars, intense guilt, and a desperate desire for her sister's approval, leading to moments of both tenderness and instability. Jinx’s story explores themes of identity, loss, and the impact of trauma.</p> <br>
+                    <img src="assets/images/vi.png" class="iconperson">
+                    <h3><center>Vi</h3>
+                    <p>Vi, short for Violet, is a pivotal character in Arcane and serves as the older sister of Jinx (Powder). She is a fiercely loyal and protective figure, known for her strength, resilience, and fiery personality. Growing up in the undercity of Zaun, Vi took on the role of caretaker for her younger sister after the death of their parents. She is deeply shaped by her experiences of poverty, oppression, and the challenges of survival in a harsh environment.
+
+                        After a catastrophic event caused by Powder results in the death of their father figure, Vander, Vi reacts in anger, which leads to her separation from her sister. Believing herself to be at fault, Vi spends years in prison, where her resolve hardens, but her love for Powder remains strong.
+                        
+                        Reunited years later, Vi struggles to bridge the emotional chasm between them, grappling with her guilt and Jinx's transformation. Vi’s narrative centers on her quest to protect her loved ones and fight for justice, often navigating the moral complexities of her actions as she seeks reconciliation and redemption​
+                        .</p>
+                </div>
+                <div id="navoption4">
+                    <h2 class="centeredtitle">Bandes annonces</h2>
+                    <center><iframe width="1600" height="900" src="https://www.youtube.com/embed/fXmAurh012s?si=R8zidZYE4_XqHtMG" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                </div>
+                <div id="navoption5">
+                    <h2 class="centeredtitle">Boutique</h2>
+                    <iframe 
+                        src="https://merch.riotgames.com/en-us/collection/arcane-collection/" 
+                        width="100%" 
+                        height="800" 
+                        style="border:none;">
+                    </iframe>
+                </div>
+            </article>
+        </section>
+        <footer>
+            <table class="footion" border="3">
+                <tr><th class="navoptions">Footer</th></tr>
+            </table>
+        </footer>
+    </body>
+</html>
